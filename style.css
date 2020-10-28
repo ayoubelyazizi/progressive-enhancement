@@ -1,0 +1,156 @@
+
+body{
+    width: 90%;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    background-color: #3F3F3F;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    color: white;
+}
+
+.notification{
+    background:black;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+.container{
+
+    display: block;
+}
+
+.container2{
+
+    display: block;
+
+}
+
+.container3{
+
+    display: block;
+
+}
+
+.container4{
+    display: block;
+
+}
+    
+
+img.alignLeft{
+    margin: 10px;
+    float: left;
+}
+
+img.alignRight{
+    margin: 10px;
+    float:right;
+}
+
+.citation{
+    font-size: 160%;
+    width: 45%;
+    margin : auto;
+    background-color: lightgray;
+    border: solid 3px firebrick;
+    padding: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+    color: black;
+}
+
+.quote{
+    border-style: solid;
+    border-color: transparent transparent transparent green;
+    font-style: italic;
+}
+
+.good{
+    text-transform: uppercase;
+    color: green;
+}
+
+.bad{
+    text-transform: uppercase;
+    color: red;
+}
+
+header h1 {
+    background-color: yellow;
+    color: black;
+}
+
+p {
+    color: white;
+    text-align: left;
+    font-size: 20;
+    word-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even){
+    background-color: white;
+    color: black;
+}
+
+table{
+    background-color: grey;
+    color: black;
+}
+
+.list1{
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-position: 21%;
+    background-size: 20px;
+}
+
+.list2{
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-position: 19%;
+    background-size: 20px;
+}
+
+.list3{
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-position: 19%;
+    background-size: 20px;
+}
+
+footer{
+    font-size: 17px;
+}
+
+footer a {
+    font-size: 17px;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color : gold;
+}
+
+a:hover{
+    background-color: yellow;
+}
